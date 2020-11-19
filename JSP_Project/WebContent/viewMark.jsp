@@ -40,6 +40,7 @@
           	<th>Science</th>
           	<th>Mathematics</th>
           	<th>Physic</th>
+          	<th>Average</th>
           
           </tr>
           
@@ -48,6 +49,7 @@
         	  String science="";
         	  String mathematic="";
         	  String physic="";
+        	  int average=0;
         	  
           %>
   
@@ -56,6 +58,7 @@
           	<td><%=science=rs.getString("science")%></td>
           	<td><%=mathematic=rs.getString("mathematic")%></td>
           	<td><%=physic=rs.getString("physic")%></td>
+          	<td><%=average=(Integer.parseInt(science)+ Integer.parseInt(mathematic)+ Integer.parseInt(physic))/3%></td>
           	
           </tr>
           

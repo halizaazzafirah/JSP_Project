@@ -13,7 +13,7 @@
     		alert( 'science mark is compulsory.');
     	} else if (document.getElementById('math'). value =='') {
     		alert( 'mathematic mark is compulsory');
-    	} else if (document.getElementById('english'). value =='') {
+    	} else if (document.getElementById('physic'). value =='') {
     		alert( 'physic mark is compulsory.');
         } else {
         	//submit the form
@@ -30,7 +30,7 @@
 	<p>Student ID: <input type="text" name="id" id= 'id'/></p> 
 	<p>science: <input type="text" name="science" id= 'science'/></p>
 	<p>math: <input type="text" name="math" id= 'math' /></p>
-	<p>physic: <input type="text" name="english" id= 'english'/></p>
+	<p>physic: <input type="text" name="physic" id= 'physic'/></p>
 	</form>
 	<p><button type="submit" onclick= "validate()">Submit</button></p>
 	
